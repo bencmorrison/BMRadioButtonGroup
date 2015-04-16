@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B59EA1B71AD5AA23004064DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA1B61AD5AA23004064DC /* main.m */; };
-		B59EA1BA1AD5AA23004064DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA1B91AD5AA23004064DC /* AppDelegate.m */; };
-		B59EA1BD1AD5AA23004064DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA1BC1AD5AA23004064DC /* ViewController.m */; };
-		B59EA1C01AD5AA23004064DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59EA1BE1AD5AA23004064DC /* Main.storyboard */; };
-		B59EA1C21AD5AA23004064DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59EA1C11AD5AA23004064DC /* Images.xcassets */; };
-		B59EA1C51AD5AA23004064DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59EA1C31AD5AA23004064DC /* LaunchScreen.xib */; };
+		17C8B1A7FAC3A6920B0354A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B8ECD248C39FAC4D8447 /* AppDelegate.m */; };
+		17C8B27374E893C8004FEF08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C8BA62327CDB5BF9E46177 /* LaunchScreen.xib */; };
+		17C8B28FA75A0BE7E23BB1F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C8BA9DD23288A93937BF1F /* Images.xcassets */; };
+		17C8B321D8E79879546DFAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C8B35CE1C5C2CEEC9E49C0 /* Main.storyboard */; };
+		17C8B3B2E3EDD3F3BDAAA805 /* BMRadioButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B2AC4006EAF58E6E7042 /* BMRadioButtonGroup.m */; };
+		17C8B78DDF6E81750B7DA0B7 /* BMRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8BE44533DC5DE84E542C8 /* BMRadioButton.m */; };
+		17C8B9106558EC2B5A5005E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B7A3463DCF5B8D8EB9ED /* ViewController.m */; };
+		17C8BEFDBB47693B71569DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8BBFE328C6A782DE80253 /* main.m */; };
 		B59EA1D11AD5AA23004064DC /* BMRadioButtonGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA1D01AD5AA23004064DC /* BMRadioButtonGroupTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +29,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17C8B19472EB6CB052A447A5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17C8B1950C0B77CE33AB9906 /* BMRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRadioButton.h; sourceTree = "<group>"; };
+		17C8B2595242A81C327F702A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		17C8B2AC4006EAF58E6E7042 /* BMRadioButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRadioButtonGroup.m; sourceTree = "<group>"; };
+		17C8B50FF49A9A48CDE04B0E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17C8B6BC42022751F6333223 /* BMRadioButtonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMRadioButtonGroup.h; sourceTree = "<group>"; };
+		17C8B7A3463DCF5B8D8EB9ED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17C8B87638CB49BF08D775D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Demo App/BMRadioButtonGroup App Stuff/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		17C8B89E95B1B343E092181D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Demo App/BMRadioButtonGroup App Stuff/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		17C8B8ECD248C39FAC4D8447 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17C8BA9DD23288A93937BF1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17C8BBFE328C6A782DE80253 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C8BE44533DC5DE84E542C8 /* BMRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMRadioButton.m; sourceTree = "<group>"; };
 		B59EA1B11AD5AA23004064DC /* BMRadioButtonGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMRadioButtonGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B59EA1B51AD5AA23004064DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B59EA1B61AD5AA23004064DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B59EA1B81AD5AA23004064DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B59EA1B91AD5AA23004064DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B59EA1BB1AD5AA23004064DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B59EA1BC1AD5AA23004064DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B59EA1BF1AD5AA23004064DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B59EA1C11AD5AA23004064DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B59EA1C41AD5AA23004064DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B59EA1CA1AD5AA23004064DC /* BMRadioButtonGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMRadioButtonGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59EA1CF1AD5AA23004064DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59EA1D01AD5AA23004064DC /* BMRadioButtonGroupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMRadioButtonGroupTests.m; sourceTree = "<group>"; };
@@ -60,12 +66,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17C8B373359B228D70F997B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C8B2595242A81C327F702A /* Info.plist */,
+				17C8BBFE328C6A782DE80253 /* main.m */,
+				17C8BA9DD23288A93937BF1F /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			path = "Demo App/BMRadioButtonGroup App Stuff";
+			sourceTree = SOURCE_ROOT;
+		};
+		17C8B47D36EB7505A71884C9 /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				17C8B35CE1C5C2CEEC9E49C0 /* Main.storyboard */,
+				17C8B373359B228D70F997B4 /* Supporting Files */,
+				17C8BA62327CDB5BF9E46177 /* LaunchScreen.xib */,
+				17C8B19472EB6CB052A447A5 /* ViewController.h */,
+				17C8B8ECD248C39FAC4D8447 /* AppDelegate.m */,
+				17C8B7A3463DCF5B8D8EB9ED /* ViewController.m */,
+				17C8B50FF49A9A48CDE04B0E /* AppDelegate.h */,
+				17C8B6FDE11D25EED1784007 /* BMRadioButtonGroup App Stuff */,
+			);
+			path = "Demo App";
+			sourceTree = "<group>";
+		};
+		17C8B6FDE11D25EED1784007 /* BMRadioButtonGroup App Stuff */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "BMRadioButtonGroup App Stuff";
+			sourceTree = "<group>";
+		};
+		17C8B8ABCC45C0B79EE19283 /* BMRadioButtonGroup */ = {
+			isa = PBXGroup;
+			children = (
+				17C8B2AC4006EAF58E6E7042 /* BMRadioButtonGroup.m */,
+				17C8B6BC42022751F6333223 /* BMRadioButtonGroup.h */,
+			);
+			path = BMRadioButtonGroup;
+			sourceTree = "<group>";
+		};
+		17C8BCCAF0039DDBEB70FDF4 /* BMRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				17C8B1950C0B77CE33AB9906 /* BMRadioButton.h */,
+				17C8BE44533DC5DE84E542C8 /* BMRadioButton.m */,
+			);
+			path = BMRadioButton;
+			sourceTree = "<group>";
+		};
 		B59EA1A81AD5AA23004064DC = {
 			isa = PBXGroup;
 			children = (
-				B59EA1B31AD5AA23004064DC /* BMRadioButtonGroup */,
 				B59EA1CD1AD5AA23004064DC /* BMRadioButtonGroupTests */,
 				B59EA1B21AD5AA23004064DC /* Products */,
+				17C8B47D36EB7505A71884C9 /* Demo App */,
+				17C8BCCAF0039DDBEB70FDF4 /* BMRadioButton */,
+				17C8B8ABCC45C0B79EE19283 /* BMRadioButtonGroup */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,30 +135,6 @@
 				B59EA1CA1AD5AA23004064DC /* BMRadioButtonGroupTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B59EA1B31AD5AA23004064DC /* BMRadioButtonGroup */ = {
-			isa = PBXGroup;
-			children = (
-				B59EA1B81AD5AA23004064DC /* AppDelegate.h */,
-				B59EA1B91AD5AA23004064DC /* AppDelegate.m */,
-				B59EA1BB1AD5AA23004064DC /* ViewController.h */,
-				B59EA1BC1AD5AA23004064DC /* ViewController.m */,
-				B59EA1BE1AD5AA23004064DC /* Main.storyboard */,
-				B59EA1C11AD5AA23004064DC /* Images.xcassets */,
-				B59EA1C31AD5AA23004064DC /* LaunchScreen.xib */,
-				B59EA1B41AD5AA23004064DC /* Supporting Files */,
-			);
-			path = BMRadioButtonGroup;
-			sourceTree = "<group>";
-		};
-		B59EA1B41AD5AA23004064DC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B59EA1B51AD5AA23004064DC /* Info.plist */,
-				B59EA1B61AD5AA23004064DC /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B59EA1CD1AD5AA23004064DC /* BMRadioButtonGroupTests */ = {
@@ -199,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59EA1C01AD5AA23004064DC /* Main.storyboard in Resources */,
-				B59EA1C51AD5AA23004064DC /* LaunchScreen.xib in Resources */,
-				B59EA1C21AD5AA23004064DC /* Images.xcassets in Resources */,
+				17C8B321D8E79879546DFAAA /* Main.storyboard in Resources */,
+				17C8B28FA75A0BE7E23BB1F2 /* Images.xcassets in Resources */,
+				17C8B27374E893C8004FEF08 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59EA1BD1AD5AA23004064DC /* ViewController.m in Sources */,
-				B59EA1BA1AD5AA23004064DC /* AppDelegate.m in Sources */,
-				B59EA1B71AD5AA23004064DC /* main.m in Sources */,
+				17C8BEFDBB47693B71569DA5 /* main.m in Sources */,
+				17C8B1A7FAC3A6920B0354A2 /* AppDelegate.m in Sources */,
+				17C8B9106558EC2B5A5005E7 /* ViewController.m in Sources */,
+				17C8B78DDF6E81750B7DA0B7 /* BMRadioButton.m in Sources */,
+				17C8B3B2E3EDD3F3BDAAA805 /* BMRadioButtonGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,18 +281,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B59EA1BE1AD5AA23004064DC /* Main.storyboard */ = {
+		17C8B35CE1C5C2CEEC9E49C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B59EA1BF1AD5AA23004064DC /* Base */,
+				17C8B89E95B1B343E092181D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B59EA1C31AD5AA23004064DC /* LaunchScreen.xib */ = {
+		17C8BA62327CDB5BF9E46177 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B59EA1C41AD5AA23004064DC /* Base */,
+				17C8B87638CB49BF08D775D2 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

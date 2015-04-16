@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BMRadioButtonGroup.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <BMRadioButtonGroupDelegate>
 
 
 @end
